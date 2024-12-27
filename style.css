@@ -13,7 +13,7 @@ body {
     padding: 0.5em 1em;
     margin: 0.5em 0;
     font-weight: bold;/*font-weightとはフォントの太さを指定するプロパティ。boldフォントを太字に指定*/
-    font-size: 40px;
+    font-size: 15px;
     color: #6091d3;/*文字色*/
     background: #FFF;/*背景色*/
     border: solid 3px #6091d3;/*線*/
@@ -22,9 +22,9 @@ body {
 .select {
     display: inline-block;
     padding: 0.5em 1em;
-    margin: 0.5em 0.3em;
+    margin: 0.5em 0.2em;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 45px;
     color: #6091d3;/*文字色*/
     background: #FFF;/*背景色*/
     border: solid 3px #6091d3;/*線*/
@@ -40,7 +40,7 @@ p {
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     color: #6091d3;/*文字色*/
 }
 #start:hover {
@@ -48,5 +48,6 @@ p {
     cursor: pointer;/*カーソルをポインターに変える*/
 }
 #btn {/*【HTML + CSS】テキストやボタンを右寄せにする方法（6パターン）（ブックマーク）を応用して追加*/
-	text-align: right;
+	text-align: left;
 }
+audio { width: 280px; height: 10px; margin: 0.1px;}
